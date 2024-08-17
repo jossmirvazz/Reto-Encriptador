@@ -1,34 +1,33 @@
-<em> # Encriptador y Desencriptador de Texto </em>
+# Encriptador
 
-Este es un proyecto simple de una aplicación web que permite encriptar y desencriptar texto, además de ofrecer un modo oscuro y un modo claro. La interfaz es sencilla y responsiva, diseñada para funcionar tanto en dispositivos móviles como en pantallas más grandes.
+## Índice
 
-## Características
-
-- **Encriptar Texto:** Convierte las vocales en palabras específicas.
-- **Desencriptar Texto:** Reconvierte el texto encriptado a su forma original.
-- **Validación de Texto:** Solo se aceptan caracteres en minúsculas y sin caracteres especiales ni acentos.
-- **Modo Oscuro/Claro:** Permite alternar entre un tema oscuro y claro con una animación de transición.
-- **Copia al Portapapeles:** Opción para copiar el texto encriptado o desencriptado al portapapeles.
-
-## Tecnologías Usadas
-
-- **HTML:** Estructura del contenido.
-- **CSS:** Estilos de la página, incluyendo animaciones y diseño responsivo.
-- **JavaScript:** Lógica de encriptación, desencriptación, validación de texto y alternancia entre modos.
+* [Insignias](#insignias)
+* [Índice](#índice)
+* [Descripción del proyecto](#descripción-del-proyecto)
+* [Estado del proyecto](#estado-del-proyecto)
+* [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
+* [Tecnologías utilizadas](#tecnologías-utilizadas)
   
-## Este archivo maneja toda la funcionalidad lógica de la aplicación, incluyendo:
+## Descripción del proyecto
 
-Encriptación y Desencriptación: Mediante reemplazo de caracteres.
-Validación: Rechaza texto vacío, texto con mayúsculas o con caracteres especiales/acento.
-Modo Oscuro/Claro: Alterna el tema visual de la página.
-Copiado al portapapeles: Permite copiar el resultado de encriptación o desencriptación
+Este proyecto es una aplicación web para encriptar y desencriptar texto. La aplicación permite al usuario ingresar texto en un campo de texto, encriptar o desencriptar dicho texto utilizando algoritmos de sustitución, y copiar el resultado al portapapeles. También incluye una función para cambiar entre el modo claro y el modo oscuro, proporcionando una mejor experiencia de usuario en diferentes condiciones de iluminación.
 
-## Estructura del Proyecto
+## Estado del proyecto
 
-```plaintext
-.
-├── index.html        # Página principal con la estructura HTML
-├── style.css         # Archivo de estilos
-├── app.js            # Archivo con la lógica JavaScript
-└── README.md         # Documentación del proyecto
+El proyecto está en desarrollo y cuenta con las siguientes características implementadas:
+- Encriptación y desencriptación de texto.
+- Validación del texto ingresado para evitar caracteres especiales y mayúsculas.
+- Copia del texto encriptado/desencriptado al portapapeles.
+- Modo oscuro y modo claro con animaciones de transición.
 
+## Características de la aplicación y demostración
+
+- **Encriptación**: Reemplaza letras específicas en el texto con secuencias de caracteres definidas.
+- **Desencriptación**: Convierte las secuencias de caracteres de vuelta a las letras originales.
+- **Validación**: Asegura que el texto ingresado esté en minúsculas y sin caracteres especiales.
+- **Modo Oscuro**: Cambia el estilo de la aplicación para una visualización más cómoda en entornos oscuros.
+- **Animación de Modo Oscuro**: Muestra una animación para representar el cambio entre el sol y la luna al activar el modo oscuro.
+
+![Demostración](![Daymode](https://github.com/user-attachments/assets/a56a0cac-c75d-4d4e-b4f9-dabc025ef7c9))
+![Demostración 2](![darkmode](https://github.com/user-attachments/assets/138d22ce-bb2e-4aa1-8d63-7157b9af5522))
