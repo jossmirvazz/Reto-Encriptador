@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptar</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Encriptar</h2>
+        <div class="flex-container">
+            <div>
+                <h3>Texto para Encriptar/Desencriptar</h3>
+                <textarea class="encriptar" placeholder="Escribe el texto aquí..."></textarea>
+            </div>
+            <div>
+                <h3>Resultado</h3>
+                <div class="output evaluar"></div>
+            </div>
+        </div>
+        <button class="btn-encriptar">Encriptar</button>
+        <button class="btn-desencriptar">Desencriptar</button>
+        <button class="btn-copiar" style="visibility: hidden;">Copiar</button>
+        <div class="switch-container">
+            <label class="switch">
+                <input type="checkbox" id="darkModeSwitch" onclick="toggleDarkMode()">
+                <span class="slider"></span>
+            </label>
+            <span id="switchLabel">Cambiar a modo oscuro</span>
+        </div>
+        <div class="footer">by Jose Mireles</div>
+        <div class="sun-moon" id="sunMoon"></div>
+        <div class="texto-aviso"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
