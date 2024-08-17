@@ -29,5 +29,5 @@ El proyecto está en desarrollo y cuenta con las siguientes características imp
 - **Modo Oscuro**: Cambia el estilo de la aplicación para una visualización más cómoda en entornos oscuros.
 - **Animación de Modo Oscuro**: Muestra una animación para representar el cambio entre el sol y la luna al activar el modo oscuro.
 
-![Demostración](![Daymode](https://github.com/user-attachments/assets/a56a0cac-c75d-4d4e-b4f9-dabc025ef7c9))
-![Demostración 2](![darkmode](https://github.com/user-attachments/assets/138d22ce-bb2e-4aa1-8d63-7157b9af5522))
+[Daymode](https://github.com/user-attachments/assets/a56a0cac-c75d-4d4e-b4f9-dabc025ef7c9))
+[darkmode](https://github.com/user-attachments/assets/138d22ce-bb2e-4aa1-8d63-7157b9af5522)
